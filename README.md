@@ -5,6 +5,7 @@ This repository contains the files used to create the java agent which is used t
 
 Steps to execute this project:
 1. Download the joda time folder from https://github.com/JodaOrg/joda-time. 
+2. Replace the pom.xml file in joda-time with the pom.xml given in this repository. 
 2. Copy the following files given above agent.jar, asm-all-5.0.3.jar, junit-4.12.jar to the joda-time folder. 
 3. Change your directory to the folder joda-time which is present within this folder. 
 4. run the mvn test command. 
