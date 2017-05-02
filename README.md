@@ -3,7 +3,9 @@ Please note: I am unable to upload the contents of joda-time folder to git from 
 
 This repository contains the files used to create the java agent which is used to create the prioritized test class lists as per total and additional strategies. 
 
-Steps to execute this project:
+We use the content in prioritized-class-list.txt and additive-class-list.txt (generated as output files in this project) in https://github.com/anand-vyas/automated-test-prioritization to generate the prioritized test suites as per total and additional strategies.
+
+## Steps to execute this project:
 1. Download the joda time folder from https://github.com/JodaOrg/joda-time. 
 2. Replace the pom.xml file in joda-time with the pom.xml given in this repository. 
 2. Copy the following files given above agent.jar, asm-all-5.0.3.jar, junit-4.12.jar to the joda-time folder. 
